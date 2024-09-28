@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Prathamesh Jagtap</h1>
+            <h2>Data Analytics and Data Engineer</h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hello! I'm Prathamesh Jagtap, a web developer passionate about creating and engaging digital experiences. Recently graduated from GHRCEM Pune with a degree in AI, I am eager to apply my skills and passion for coding to the world of web development.As a passionate and dedicated frontend developer, I bring a fresh perspective and a solid foundation in HTML, CSS, and JavaScript. Eager to leverage my skills in creating responsive and user-centric web applications, I thrive in collaborative environments where I can contribute innovative ideas. With a commitment to learning and a keen eye for design, I aim to craft seamless, engaging experiences that resonate with users."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading"><strong>Experience</strong></h2>
+        <div id="experience-timeline">
+            <div data-date="july 2023 – january 2024">
+                <h3><strong>WebRelier Software Solutions Pvt. Ltd.</strong></h3>
+                <h4>Front-End Developer</h4>
+                <p>
+                    At WebRelier Software Solutions Pvt. Ltd., I create and maintain websites for various clients, using AWS, Python, CSS, and JavaScript. I have worked on several projects, such as developing a responsive e-commerce website for a local retailer, and enhancing the user interface and functionality of a health care portal. I enjoy working with a diverse and talented team, and learning new skills and technologies every day.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+<!-- Start .project-image -->
+    <div id="projects" class="background-alt">
+        <h2 class="heading"><strong>Projects</strong></h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/H2J.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3><strong>Online Job Jortal - Hire2Jobs</strong></h3>
+                        <p>
+                            Welcome to our online job portal, a dynamic platform designed to bridge the gap between talented individuals and prospective employers. Our portal is a user-friendly space dedicated to streamlining the job search process, providing a wide array of job listings across various industries and professions.
+                        </p>
+                        <a href="https://github.com/Prathameshjtp/Online-Job-Portal">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/Little Lemon.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3><strong>Little Lemon Restaurant</strong></h3>
+                        <p>
+                            Welcome to Little Lemon Restaurant, where exquisite flavors meet unparalleled hospitality in a dining experience like no other. Our restaurant landing page is your gateway to a culinary journey that celebrates taste, ambiance, and exceptional service.Discover a menu crafted with passion and precision, showcasing an array of delectable dishes meticulously prepared by our talented chefs.
+                        </p>
+                        <a href="https://github.com/Prathameshjtp/Little-Lemon-Restorent-Website">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading"><strong>Skills</strong></h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>Github</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/email@email.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2024</span>Prathamesh Jagtap
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Prathameshjtp" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/in/prathamesh-jagtap-7a369a228/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Pratham39762929" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/prathamesh___017/" target="blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
